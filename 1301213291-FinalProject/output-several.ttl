@@ -1,0 +1,90 @@
+@prefix ex: <http://example.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nba: <http://example.org/nba2k20#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Aaron_Gordon a nba:Player ;
+    nba:b_day "09/16/95" ;
+    nba:college "Arizona" ;
+    nba:country "USA" ;
+    nba:draft_peak "4" ;
+    nba:draft_round "1" ;
+    nba:draft_year 2014 ;
+    nba:height "6-8 / 2.03" ;
+    nba:jersey "#0" ;
+    nba:position "F" ;
+    nba:rating 81 ;
+    nba:salary "$19863636" ;
+    nba:team "Orlando Magic" ;
+    nba:version "NBA2k20" ;
+    nba:weight "220 lbs. / 99.8 kg." ;
+    foaf:name "Aaron Gordon" .
+
+ex:Blake_Griffin a nba:Player ;
+    nba:b_day "03/16/89" ;
+    nba:college "Oklahoma" ;
+    nba:country "USA" ;
+    nba:draft_peak "1" ;
+    nba:draft_round "1" ;
+    nba:draft_year 2009 ;
+    nba:height "6-9 / 2.06" ;
+    nba:jersey "#23" ;
+    nba:position "F" ;
+    nba:rating 88 ;
+    nba:salary "$34449964" ;
+    nba:team "Detroit Pistons" ;
+    nba:version "NBA2k20" ;
+    nba:weight "252 lbs. / 114.3 kg." ;
+    foaf:name "Blake Griffin" .
+
+ex:Caleb_Swanigan a nba:Player ;
+    nba:b_day "04/18/97" ;
+    nba:college "Purdue" ;
+    nba:country "USA" ;
+    nba:draft_peak "26" ;
+    nba:draft_round "1" ;
+    nba:draft_year 2017 ;
+    nba:height "6-9 / 2.06" ;
+    nba:jersey "#50" ;
+    nba:position "C" ;
+    nba:rating 70 ;
+    nba:salary "$2033160" ;
+    nba:team "Portland Trail Blazers" ;
+    nba:version "NBA2k20" ;
+    nba:weight "249 lbs. / 112.9 kg." ;
+    foaf:name "Caleb Swanigan" .
+
+ex:Cheick_Diallo a nba:Player ;
+    nba:b_day "09/13/96" ;
+    nba:college "Kansas" ;
+    nba:country "Mali" ;
+    nba:draft_peak "33" ;
+    nba:draft_round "2" ;
+    nba:draft_year 2016 ;
+    nba:height "6-8 / 2.03" ;
+    nba:jersey "#14" ;
+    nba:position "F-C" ;
+    nba:rating 74 ;
+    nba:salary "$1678854" ;
+    nba:team "Phoenix Suns" ;
+    nba:version "NBA2k20" ;
+    nba:weight "219 lbs. / 99.3 kg." ;
+    foaf:name "Cheick Diallo" .
+
+ex:Danilo_Gallinari a nba:Player ;
+    nba:b_day "08/08/88" ;
+    nba:college "NaN"^^xsd:double ;
+    nba:country "Italy" ;
+    nba:draft_peak "6" ;
+    nba:draft_round "1" ;
+    nba:draft_year 2008 ;
+    nba:height "6-10 / 2.08" ;
+    nba:jersey "#8" ;
+    nba:position "F" ;
+    nba:rating 83 ;
+    nba:salary "$22615559" ;
+    nba:team "Oklahoma City Thunder" ;
+    nba:version "NBA2k20" ;
+    nba:weight "225 lbs. / 102.1 kg." ;
+    foaf:name "Danilo Gallinari" .
+
